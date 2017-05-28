@@ -1,0 +1,134 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}    
+body {
+    
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+.single-bd-01 { background-image: url(img/single-bd-01.png)}
+.single-bd-02 { background-image: url(img/single-bd-02.png)}
+.single-bd-03 { background-image: url(img/single-bd-03.png)}
+
+.big-bg {background-image: url(img/big-bg.jpg)}
+
+.feature-image, .big-feature-image {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-border span {
+    background-color: #6aaf08;
+    border-radius: 5px;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    margin: 5px;
+    width: 30px;
+}
+.section-border span.black-boder {
+    background-color: #333;
+    width: 20px;
+}
+.feature-image {
+    border: 1px solid #fff;
+    height: 120px;
+    position: relative;
+    width: 100px;
+}
+.single-feature-image {
+    margin-bottom: 30px;
+}
+.feature-image::before {
+    background: #6aaf08 none repeat scroll 0 0;
+    bottom: -6px;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: -6px;
+    width: 100%;
+    z-index: -1;
+}
+.single-feature-image h3 {
+    border-bottom: 1px dashed #6aaf08;
+    padding-bottom: 15px;
+}
+.big-feature-image {
+    border: 1px solid #fff;
+    height: 450px;
+    margin-left: 20px;
+    position: relative;
+    width: 100%;
+}
+.big-feature-image::after {
+    background-color: #333;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+}
+.big-feature-image::before {
+    background-color: #6aaf08;
+    bottom: -10px;
+    content: "";
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
